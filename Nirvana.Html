@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Technology and Stuff</title>
+</head>
+<body>
+    <header class="site-header">
+        <a class="site-brand" href="Purgatario.Html">
+            <span class="brand-mark" aria-hidden="true">TS</span>
+            <span>Technology and Stuff</span>
+        </a>
+        <nav aria-label="Primary navigation">
+            <ul class="site-nav">
+                <li><a href="Purgatario.Html">Home</a></li>
+                <li><a href="Technology.Html">About</a></li>
+                <li><a href="Paradiso.Html">Strategy</a></li>
+                <li><a href="Nirvana.Html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<header class="contact-hero">
+    <header>
+        <p class="eyebrow">Technology with intention</p>
+        <h1>Shape the future you want to live in.</h1>
+        <p class="header-copy">Technology and Stuff explores how thoughtful planning and useful technology can help us learn, work, and build a better future. Share an idea, question, or experience to continue the conversation.</p>
+    </header>
+</header>
+
+<main class="contact-layout">
+    <section class="profile-panel" aria-labelledby="profile-heading">
+        <p class="eyebrow">Placeholder profiles</p>
+        <h2 id="profile-heading">Who would you like to reach?</h2>
+        <div class="profile-list">
+            <article class="profile-card">
+                <div class="profile-avatar avatar-sun" aria-hidden="true">AM</div>
+                <div>
+                    <h3>Amber Moon</h3>
+                    <p>Don Quixote</p>
+                </div>
+            </article>
+            <article class="profile-card">
+                <div class="profile-avatar avatar-orange" aria-hidden="true">JS</div>
+                <div>
+                    <h3>Juno Sol</h3>
+                    <p>Sancho</p>
+                </div>
+            </article>
+            <article class="profile-card">
+                <div class="profile-avatar avatar-coral" aria-hidden="true">RL</div>
+                <div>
+                    <h3>Rio Luna</h3>
+                    <p>Dulcenia</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="form-panel" aria-labelledby="form-heading">
+        <p class="eyebrow">Continue the conversation</p>
+        <h2 id="form-heading">What future are you planning for?</h2>
+        <form class="contact-form" action="https://formsubmit.co/meizhelan012@gmail.com" method="POST" autocomplete="off">
+        <input type="hidden" name="_subject" value="New Technology and Stuff contact message">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <div class="form-container">
+    <div class="input-container">
+        <div class="icon">
+            <i class="fas fa-user"></i>
+        </div>
+            <div class="form-input">
+                <input class="input-item" type="text" name="name" id="name" placeholder="Your name" required>
+                <label for="name" class="form-label"></label>
+            </div>
+        </div>
+            <div class="input-container">
+                <div class="icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+            <div class="form-input">
+        <input class="input-item" type="text" name="city" id="city" placeholder="Where are you writing from?">
+        <label for="city" class="form-label"></label>
+    </div>
+</div>
+<div class="input-container">
+    <div class="icon">
+        <i class="far fa-envelope-open"></i>
+    </div>
+        <div class="form-input">
+            <input class="input-item" type="email" name="email" id="email" placeholder="you@example.com" required>
+            <label for="email" class="form-label"></label>
+        </div>
+</div>
+
+<div class="textarea-container">
+    <div class="icon">
+        <i class="fas fa-comment"></i>
+    </div>
+        <div class="form-textarea">
+            <textarea class="textarea" name="message" id="message" cols="52" rows="6" placeholder="Tell us about the future you are imagining..." required></textarea>
+            <label for="message" class="form-label"></label>
+        </div>
+    </div>
+        </div>
+
+        <input type="submit" value="Send message" class="submit">
+        </form>
+    </section>
+</main>
+
+<button class="modal-trigger" type="button">Need help?</button>
+<div class="modal-container">
+    <div class="modal">
+        <button class="close-modal" type="button" aria-label="Close message">&times;</button>
+        <h2 class="modal-title">Before you send</h2>
+        <p class="modal-message">Add your name, email, and a message so we know how to reach you.</p>
+    </div>
+</div>
+
+
+<script src="contact.js"></script>
+
+</body>
